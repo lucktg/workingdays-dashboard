@@ -9,7 +9,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.test.context.TestPropertySource;
 
 @Configuration
-@TestPropertySource({"classpath:/application.properties", "datasource.properties"})
+@TestPropertySource({"classpath:/application.properties"})
 public class BatchConfigurationTest {
     @Bean
     public JobLauncherTestUtils jobLauncherTestUtils() {
